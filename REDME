@@ -1,0 +1,11 @@
+1、准备一个服务器
+2、解析好域名
+3、设置好防火墙规则或者放行好端口
+4、Socks5搭建
+项目地址：https://github.com/Lozy/danted
+
+首先，编译安装SS5需要先安装一些依赖组件
+wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh bash install.sh
+
+设置账户和密码
+bash install.sh --port=443 --user=slobys --passwd=123456
